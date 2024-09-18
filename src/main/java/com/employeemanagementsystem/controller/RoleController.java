@@ -53,5 +53,7 @@ public class RoleController {
       }
       Role role = roleModelService.getRole(roleId).get();
       employee.setRole(role);
+
+      System.out.println("Role added successfully");
     }
 }
